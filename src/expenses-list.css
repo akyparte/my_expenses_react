@@ -1,0 +1,164 @@
+.list-ex-frame {
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.list-ex-container {
+   margin-top: 80px;
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+   /* border: 1px solid black; */
+   align-items: center;
+   justify-content: center;
+}
+
+.list-ex-form {
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 1px solid rgb(58, 58, 58);
+    /* padding-left: 15px; */
+    background-color: #0c0c0c;
+    border-radius: 2px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.list-ex-form h1 {
+    font-size: 25px;
+    color: rgb(95, 95, 95);
+}
+
+.list-ex-form button {
+    width: 50%;
+    height: 38px;
+    background-color: rgb(73, 71, 71);
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.list-ex-form .list-ex-field {
+    width: 90%;
+    /* border: 1px solid red; */
+    margin-bottom: 12px;
+}
+
+
+.list-ex-form .list-ex-field input,.list-ex-form .list-ex-field select  {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 3px;
+    background-color: rgb(54, 54, 54);
+    color: #fff;
+}
+
+.list-ex-date-box {
+    margin-bottom: 20px;
+}
+
+.list-ex-date-box .rs-picker {
+    margin-right: 20px;
+    /* background-color: ; */
+
+}
+
+.list-ex-data-table {
+    margin-top: 20px;
+    width: 90%;
+    /* align-self: center; */
+    margin-bottom: 30px;
+}
+
+.list-des-expand-box {
+    /* margin-top: 10px; */
+    padding: 15px;
+    background-color: #0c0c0c;
+    width: 100%;
+    word-wrap: break-word;
+    color: white;
+}
+
+.dlUCce::-webkit-scrollbar {
+    /* width: 2px; */
+    height: 5px;
+}
+
+/* Track */
+.dlUCce::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .dlUCce::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .dlUCce::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+  /* .fPIktX.rdt_Pagination.sc-ejWHKt {
+    background-color: #252525;
+    color: white;
+  } */
+
+/* ----------------------------------------------- */
+  /* .hsprtj#pagination-first-page {
+    background-color: #252525;
+      need to put black color for round button
+     color: white !important;
+  } */
+
+
+  /* .hsprtj:disabled { */
+    /* cursor: unset; */
+    /* color: rgba(0, 0, 0, 0.18);
+    fill: rgba(0, 0, 0, 0.18); */
+    /* color: white !important; */
+    /* fill: rgb(255, 255, 255) !important; */
+
+    /* background-color: #252525; */
+/* } */
+ 
+  /* #pagination-previous-page {
+    background-color: #252525;
+    
+  } */
+
+  /* #pagination-next-page {
+    background-color: #252525;
+    
+
+  } */
+/* 
+  #pagination-last-page {
+    background-color: #252525;
+    
+  } */
+/* -------------------------------------------------- */
+
+
+  @media only screen 
+and (min-device-width : 200px)   
+and (max-device-width : 500px) {
+
+    .list-ex-container  {
+        width: 100%;
+    }
+    .list-ex-form {
+       width: 90%;
+    }
+}
