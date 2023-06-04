@@ -153,7 +153,7 @@
 
 @media only screen 
 and (min-device-width : 1000px)   
-and (max-device-width : 1700px) {
+and (max-device-width : 2000px) {
     .login-container {
         width: 32%;
     }
